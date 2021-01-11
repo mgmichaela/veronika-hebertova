@@ -1,9 +1,7 @@
 //glidejs
 new Glide(".glide", {
   type: "carousel",
-  startAt: 0,
-  perView: 3,
-  focusAt: "center",
+  perView: 1
 }).mount();
 
 //tooltip
@@ -14,5 +12,4 @@ function show(elem) {
 function hide(elem) {
   elem.style.display = "";
 };
-
 
