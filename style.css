@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,18 +12,22 @@ body {
 }
 
 .wrapper {
-  padding: 50px 0;
+  padding-top: 80px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 img {
-  max-width: 800px;
+  max-width: 600px;
   object-fit: cover;
+  margin-left: 50px;
+  padding-right: 100px;
 }
 
 .text-column-1 {
   max-width: 33%;
   float: left;
-  padding: 30px 30px 30px 30px;
+  padding-left: 70px;
 }
 
 .gallery-column-2 {
@@ -41,7 +45,7 @@ h1 {
 }
 
 p {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 15px;
   line-height: 24px;
   color: #fff;
@@ -82,8 +86,9 @@ a {
 /*both*/
 .glide__arrows {
   position: absolute;
-  bottom: -30px;
- padding-top: 20px;
+  bottom: -40px;
+  padding-top: 20px;
+  left: 50px;
 }
 
 /*individual*/
@@ -100,13 +105,10 @@ a {
   margin-right: 15px;
 }
 
-.glide__arrow--left {
+/*.glide__arrow--left {
   left: 0;
 }
 
 .glide__arrow--right {
   right: -90px;
-}
-
-
-
+}*/
